@@ -1,0 +1,32 @@
+.content{
+    background-color: rgb(230, 123, 230);
+    margin-top: 0;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav{
+    background-color: slateblue;
+    flex: 1;
+    
+}
+.navItem{
+    margin-right: 30px;
+    float: right;
+    font-size: 50;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.logo img{
+    height: 45px;
+}
+
+.navItem >ul>li{
+    list-style-type: none;
+    
+    justify-content: space-around;   
+    
+}
+
